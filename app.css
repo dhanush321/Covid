@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(6, 30, 59);
+}
+.map{
+    display: flex;
+}
+.heading{
+    width: 100%;
+    color: white;
+    height: 10vh;
+    font-size: 3em;
+    font-family: 'Teko', sans-serif;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.mapdiv{
+    width: 70%;
+    margin: 10px;
+}
+
+.mapdiv path {
+    fill: rgb(1, 108, 128);
+    stroke: rgb(127, 124, 145);
+    stroke-width:.2px;
+    transition: fill 0.3s;
+}
+
+.mapdiv :hover {
+    fill:#000;
+}
+section{
+    height: 100%;
+    width: 30%;
+    border: 10px solid brown;
+    margin: 10px;
+    background-color: green;
+}
+.details{
+    color:white;
+    font-family: 'Cairo', sans-serif;
+}
+.details h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: 900;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.details p{
+
+
+    padding: 5px;
+    font-size: 1.5em;
+}
+p.update{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1em;
+}
